@@ -1,35 +1,37 @@
-# Kubernetes Security Testing using DVWA
+# Kubernetes Security Testing using DVWA 🔐
 
 ## Project Overview
-This project focuses on hands-on Kubernetes security testing by deploying a deliberately vulnerable web application (DVWA – Damn Vulnerable Web Application) on a Kubernetes cluster using Minikube. The objective is to simulate real-world web attacks in a containerized environment and analyze security risks in cloud-native systems.
+This project demonstrates **hands-on Kubernetes security testing** by deploying a deliberately vulnerable web application (**DVWA – Damn Vulnerable Web Application**) on a Kubernetes cluster using **Minikube**. The primary goal is to simulate real-world web attacks in a containerized environment and analyze security risks in **cloud-native systems**.
+
+This project is designed for **learning, experimentation, and portfolio demonstration**.
 
 ---
 
-## Implementation Summary
+## Key Highlights
 
 - Deployed DVWA on Kubernetes using custom YAML manifests
-- Configured and managed a local Kubernetes cluster using Minikube
+- Set up and managed a local Kubernetes cluster using Minikube
 - Exposed the application using Kubernetes Services
-- Performed security testing on a live containerized workload
-- Analyzed runtime and networking security risks in Kubernetes
+- Simulated real-world web attacks in a containerized setup
+- Analyzed Kubernetes networking and runtime security risks
 
 ---
 
 ## Attack Vectors Demonstrated
 
-The following real-world vulnerabilities were tested:
+The following vulnerabilities were successfully tested:
 
 - SQL Injection
 - Cross-Site Scripting (XSS)
 - Command Injection
 
-These attacks were executed against DVWA running inside Kubernetes to understand how application-layer vulnerabilities impact cloud-native deployments.
+These attack scenarios help understand how traditional web vulnerabilities translate into serious risks in cloud-native deployments.
 
 ---
 
 ## Kubernetes Architecture
 
-> Architecture diagram is included in this repository.
+> The complete architecture diagram is included in this repository.
 
 ![Kubernetes Architecture](architecture.jpg)
 
@@ -47,20 +49,20 @@ These attacks were executed against DVWA running inside Kubernetes to understand
 
 ---
 
-## Repository Contents
+## Repository Includes
 
 - Kubernetes manifests for DVWA deployment
 - Service and networking configuration files
 - Architecture diagram
-- Documentation and setup instructions
+- Documentation and setup references
 
 ---
 
 ## Learning Outcomes
 
 - Practical experience with Kubernetes deployments
+- Exposure to cloud-native security challenges
 - Understanding of containerized application security
-- Exposure to cloud-native security risks
 - Hands-on DevSecOps fundamentals
 - Kubernetes networking and service management
 
@@ -68,12 +70,13 @@ These attacks were executed against DVWA running inside Kubernetes to understand
 
 ## Disclaimer
 
-This project uses intentionally vulnerable software for educational and testing purposes only.  
-Do NOT deploy this setup in a production environment.
+This project uses intentionally vulnerable software for **educational and testing purposes only**.  
+Do **NOT** deploy this setup in a production environment.
 
 ---
 
 ## Author
 
-Satyam Tiwari  
+**Satyam Tiwari**  
 GitHub: https://github.com/satyamtiwari06
+
