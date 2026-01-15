@@ -33,7 +33,7 @@ These attack scenarios help understand how traditional web vulnerabilities trans
 
 > The complete architecture diagram is included in this repository.
 
-![Kubernetes Architecture](architecture.jpg)
+![Kubernetes Architecture](Architecture.jpg)
 
 ---
 
